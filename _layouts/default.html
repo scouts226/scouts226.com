@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{page.title | default: "Scouts 226"}}</title>
+    <meta name="keywords" content="troop 226, troop 226g, pack 226, troop, pack, 226, 226g, scouts, scouting, cbc">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link  rel="stylesheet" text="text/scss" href="{{site.baseurl}}/assets/css/main.css">
+</head>
+
+<body>
+    <div class="locked twelve columns">
+        <header class="main-header">
+            <div class="container" style="overflow: hidden;">
+                <h1 id="title" class="ten columns">Scouts 226</h1>
+                <img src="{{site.imageurl}}/logo.png" height="60px" width="60px" class="logo u-pull-right">
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="twelve columns">
+                    <li><a href="{{site.baseurl}}/">Home</a></li>
+                    <li><a href="{{site.baseurl}}/about">About</a></li>
+                    <li><a href="{{site.baseurl}}/stories">Stories</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div id="main" class="container" style="padding-top: 5em;">
+        {{content}}
+    </div>
+    <div id="footer">
+        <p class="copy">Copyright &copy; 2021</p>
+        <img class="footer twelve columns" src="{{site.imageurl}}/scout_footer.jpg">
+    </div>
+</body>
+
+</html>
