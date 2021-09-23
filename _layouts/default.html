@@ -10,32 +10,38 @@
 </head>
 
 <body>
-    <div class="twelve columns">
-        <header class="main-header">
-            <div class="container" style="overflow: hidden;">
-                <h1 id="title" class="ten columns">Scouts 226</h1>
-                <img src="{{site.imageurl}}/logo.png" height="60px" width="60px" class="logo u-pull-right">
-            </div>
-        </header>
-        <nav class="navbar">
-            <div class="container">
-                <ul class="twelve columns">
-                    <li><a href="{{'/' | relative_url}}">Home</a></li>
-                    <li><a href="{{'/about.html' | relative_url}}">About</a></li>
-                    <li><a href="{{'/stories.html' | relative_url}}">Stories</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <div class="page-container">
+        <div class="content-wrap">
+            <header>
+                <div class="banner">
+                    <div class="container" style="overflow: hidden;">
+                        <div class="row">
+                            <h1 class="title ten columns">Scouts 226</h1>
+                            <img src="{{site.imageurl}}/logo.png" height="60px" width="60px" class="logo u-pull-right">
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="row">
+                            <ul class="twelve columns">
+                                <li><a href="{{'/' | relative_url}}">Home</a></li>
+                                <li><a href="{{'/about.html' | relative_url}}">About</a></li>
+                                <li><a href="{{'/stories.html' | relative_url}}">Stories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
-    <div id="main" class="container">
-        {{content}}
-    </div>
-    <div id="page-container">
-        <footer id="footer">
-            <p class="copy">Copyright &copy; 2021</p>
-            <img class="twelve columns" src="{{site.imageurl}}/scout_footer.jpg">
-        </footer>
+            <div class="container">
+                {{content}}
+            </div>
+        </div>
+            <footer class="footer row">
+                <p class="copy">Copyright &copy; 2021</p>
+                <img class="twelve columns" src="{{site.imageurl}}/scout_footer.jpg">
+            </footer>
     </div>
 </body>
 
