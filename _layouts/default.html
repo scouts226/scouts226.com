@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="locked twelve columns">
+    <div class="twelve columns">
         <header class="main-header">
             <div class="container" style="overflow: hidden;">
                 <h1 id="title" class="ten columns">Scouts 226</h1>
@@ -28,12 +28,14 @@
         </nav>
     </div>
 
-    <div id="main" class="container" style="padding-top: 5em;">
+    <div id="main" class="container">
         {{content}}
     </div>
-    <div id="footer">
-        <p class="copy">Copyright &copy; 2021</p>
-        <img class="footer twelve columns" src="{{site.imageurl}}/scout_footer.jpg">
+    <div id="page-container">
+        <footer id="footer">
+            <p class="copy">Copyright &copy; 2021</p>
+            <img class="twelve columns" src="{{site.imageurl}}/scout_footer.jpg">
+        </footer>
     </div>
 </body>
 
