@@ -2,3 +2,4 @@ url: https://scouts226.com
 title: Scouts 226
 imageurl: https://scouts226.com/images
 exclude: ["README.md"]
+permalink: pretty
