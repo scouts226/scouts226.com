@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<img src="{{site.imageurl}}/{{page.primary_image}}" alt="{{page.primary_image_alt}}" class="u-full-width">
 <h1>{{page.title}}</h1>
-<h3>{{page.pretty_date}}</h3>
+<img src="{{site.imageurl}}/{{page.primary_image}}" alt="{{page.primary_image_alt}}" class="u-full-width">
+<p>{{page.date|date_to_long_string}}</p>
 
 {{content}}

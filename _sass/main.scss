@@ -1,96 +1,114 @@
+$scouting-blue: #003f87;
+$scouting-dark-blue: #003366;
+$scouting-dark-gray: #232528;
+$scouting-dark-tan: #ad9d7b;
+$scouting-light-tan: #e9e9e4;
+$scouting-pale-blue: #9ab3d5;
+$scouting-pale-gray: #858787;
+$scouting-red: #ce1126;
+$scouting-tan: #d6cebd;
+$scouting-warm-gray: #515354;
+$scouting-white: #ffffff;
+
 a {
-  text-decoration: none;
-  background-color: #fff;
-  color: blue;
-}
-ul a {
-  text-decoration: none;
-  background-color: #fff;
-  color: rgb(68, 68, 68);
+  color: $scouting-blue;
   font-weight: 900;
-}
-.container ul li a {
   text-decoration: none;
-  background-color: #ce1126;
-  padding-bottom: 1px;
-  color: #ffffff;
-  font-size: 0.7em;
 }
-#title{
-  margin-top: 7px;
-}
-h1 {
-  font-size: 1em;
-}
-h2 {
-  text-decoration: none;
-  background-color: #fff;
-}
-.locked{
-  position: fixed;
-  z-index: 1;
-}
-.main-header {
-  background-color: #003f87;
-  color: #ffffff;
-}
-.main-header h1{
-  margin-bottom: 0;
-}
-.navbar {
-  background-color: #ce1126;
-  color: #ffffff;
-  padding-bottom: 0px;
-}
-.navbar ul {
-  padding: 0;
-  padding-bottom: 5px;
-  margin-block-end: 0;
-  list-style: none;
-}
-.navbar li {
-  display: inline;
-}
-.navbar a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 20px;
-  padding-right: 15px;
-  font-weight: bolder;
-}
-.logo {
-  float: left;
-  overflow: hidden;
+a:hover {
+  color: $scouting-blue;
 }
 blockquote {
-  background-color: darkgreen;
-  color: #fff;
-  padding: 1em;
-  margin-left: 10px;
+  background: $scouting-light-tan;
+  border-left: 1rem solid $scouting-dark-gray;
+  margin: 2.25rem 1.5rem;
+  padding: 0.75rem 1.5rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: $scouting-dark-gray;
+  content: open-quote;
+  font-size: 6rem;
+  line-height: 0.6rem;
+  margin-right: 1rem;
+  vertical-align: -2.4rem;
 }
 blockquote p {
-  margin: 0;
+  display: inline;
 }
-#showcase {
-  background-color: #ffffff;
-  color: #000000;
-  min-height: 300;
-  margin: 0;
-  float: none;
+footer {
+  background: no-repeat bottom/100% url($imageurl + "/scout_footer.jpg");
+  bottom: 0;
+  height: 22.5rem;
+  position: absolute;
+  width: 100%;
 }
-.blog_photo {
-  float: left;
-  padding-right: 1em;
+header {
+  color: $scouting-white;
+  margin-bottom: 2.5rem;
 }
-.photo {
-  float: none;
-  margin: 1em;
+header a {
+  color: $scouting-white;
 }
-.copy {
-  padding-top: 300px;
-  color: black;
+header a:hover {
+  color: $scouting-light-tan;
+}
+nav {
+  background-color: $scouting-red;
+}
+nav a {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-right: 1.5rem;
+}
+nav li {
+  display: inline;
+}
+nav ul {
+  list-style: none;
+  margin: 0.2rem;
+}
+p {
+  font-size: 1.8rem;
+}
+.banner {
+  background-color: $scouting-blue;
+}
+.banner h1 {
+  margin: 1rem 0;
+}
+.banner .logo {
+  margin: 1rem 0;
+  overflow: hidden;
+  width: 6rem !important;
+}
+.content-wrap {
+  padding-bottom: 22rem;
+}
+.page-container {
+  min-height: 100vh;
+  position: relative;
+}
+.post-snippet {
+  margin-top: 3rem;
+}
+.u-center {
   text-align: center;
 }
-.footer {
-  display: grid;
+.wide-photo {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 2.5rem 0;
+}
+
+@media (max-width: 550px) {
+  .logo {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .smaller-than-tablet-stacked {
+    width: 100% !important;
+    margin-left: 0;
+  }
 }

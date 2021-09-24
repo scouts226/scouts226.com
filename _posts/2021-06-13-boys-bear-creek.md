@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Boy's Summer Camp at Bear Creek
-pretty_date: June 13, 2021
+title: Boys Troop at Bear Creek
 primary_image: bear_creek_boys.jpg
 primary_image_alt: Bear Creek Boys Troop
 ---
