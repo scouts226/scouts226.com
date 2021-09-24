@@ -1,4 +1,4 @@
 url: https://scouts226.com
-baseurl: "/"
 title: Scouts 226
 imageurl: https://scouts226.com/images
+exclude: ["README.md"]

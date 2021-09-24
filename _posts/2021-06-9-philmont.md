@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Philmont Backpacking Expedition
-pretty_date: June 6, 2021
 primary_image: philmont_crew_baldy.jpg
 primary_image_alt: Philmont
 ---

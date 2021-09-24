@@ -132,6 +132,7 @@ body {
 -------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  margin-bottom: 2rem;
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -405,11 +406,7 @@ there.
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (max-width: 550px) {
-  .logo{
-    display: none;
-  }
-}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
@@ -419,10 +416,3 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
-@media (max-width: 1000px) {
-  .smaller-than-tablet-stacked{
-    width: 100% !important;
-    margin-left:0;
-  }
-}

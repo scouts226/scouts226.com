@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Girls Troop Camping at Bear Creek
-pretty_date: June 20, 2021
+title: Girls Troop at Bear Creek
 primary_image: bear_creek_girls.jpg
 primary_image_alt: Bear Creek Girls Troop
 ---
