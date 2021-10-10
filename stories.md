@@ -7,7 +7,7 @@ layout: main
     title=post.title
     url=post.url
     post_date=post.date
-    excerpt=post.excerpt
+    content=post.content
     primary_image=post.primary_image
     primary_image_alt=post.primary_image_alt
 %}
